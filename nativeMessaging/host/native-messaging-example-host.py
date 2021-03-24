@@ -91,6 +91,23 @@ if tkinter:
                     self.quit()
                     return
                 self.log("Received %s" % message)
+                # 添加功能：
+                # 接收到"txt"就创建一个名为test.txt的txt文件
+                if message == '{"text":"txt"}':
+                    with open("test.txt",'w',encoding='utf-8')as f:
+                        f.write("test ok!\n")
+                        self.log("test creating file ok!")
+                
+                if message == '{"text":"edit"}':
+                    with open("test.txt",'a',encoding='utf-8')as f:
+                        f.write("edit ok!\n")
+                        self.log("test editing file ok!")
+
+                if message == '{"text":"open"}':
+                    # os.startfile(r'E:\Program Files\JetBrains\CLion 2019.3.5\bin\clion64.exe')
+
+                    os.startfile(r'C:\Users\15518\Desktop\test.md')
+                    self.log("opening Typora ok!")
 
             self.after(100, self.processMessages)
 

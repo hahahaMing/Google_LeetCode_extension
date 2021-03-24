@@ -47,6 +47,16 @@ function onDisconnected() {
     updateUiState();
 }
 
+
+function contentGet(){
+    // var queTitle = document.getElementsByClassName("#question-detail-main-tabs > div.tab-pane__1SHj.css-12hreja-TabContent.e16udao5 > div > div.css-xfm0cl-Container.eugt34i0");
+    appendMessage("test content.")
+    console.log("test log.");
+    var queTitle = document.getElementsByClassName("css-xfm0cl-Container.eugt34i0");
+    console.log(queTitle);
+
+}
+
 function connect() {
     var hostName = "com.google.chrome.example.echo";
     appendMessage("Connecting to native messaging host <b>" + hostName + "</b>")
@@ -60,7 +70,6 @@ document.addEventListener('DOMContentLoaded', function () {
     //点击connect按钮 执行connect函数
     document.getElementById('connect-button').addEventListener(
         'click', connect);
-
     document.getElementById('send-message-button').addEventListener(
         'click', sendNativeMessage);
     updateUiState();
