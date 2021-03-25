@@ -13,7 +13,7 @@ var getKeys = function (obj) {
 }
 
 
-//估计是修改html页面元素，然后在response部分显示text
+//修改html页面元素，然后在response部分显示text
 function appendMessage(text) {
     document.getElementById('response').innerHTML += "<p>" + text + "</p>";
 }
@@ -48,14 +48,7 @@ function onDisconnected() {
 }
 
 
-function contentGet(){
-    // var queTitle = document.getElementsByClassName("#question-detail-main-tabs > div.tab-pane__1SHj.css-12hreja-TabContent.e16udao5 > div > div.css-xfm0cl-Container.eugt34i0");
-    appendMessage("test content.")
-    console.log("test log.");
-    var queTitle = document.getElementsByClassName("css-xfm0cl-Container.eugt34i0");
-    console.log(queTitle);
 
-}
 
 function connect() {
     var hostName = "com.google.chrome.example.echo";
