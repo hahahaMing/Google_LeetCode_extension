@@ -8,17 +8,10 @@
   "background": {
     "service_worker": "background.js"
   },
-  "action": {
-    // "default_popup": "main.html"
-  },
-  // "browser_action": {
-  //   "default_title": "test"
-  // },
+  "action": {},
   "content_scripts": [
     {
-      "matches": ["https://leetcode-cn.com/problems/*"],
-      // "run_at": "document_end",
-      "js": ["contentScript.js"]
+      "matches": ["https://leetcode-cn.com/problems/*"],"js": ["contentScript.js"]
     }
   ],
   "icons": {
