@@ -60,7 +60,7 @@ function sendData() {
 function sendMessages2PythonScript() {
 
   //判断data是否准备好
-  if (!(questionTitle && questionContent && codeContent)) alert("data not complete, please refresh the page!");
+  if (!(questionTitle && questionContent && codeContent)) console.log("data not complete, please refresh the page!");
 
   //连接py脚本
   console.log("Connecting to native messaging host" + hostName);
@@ -93,6 +93,7 @@ chrome.runtime.onMessage.addListener(
     console.log(codeContent);
     if (request.greeting == "hello")
       sendResponse({ farewell: "got it!" });
+
   }
 );
 

@@ -135,16 +135,16 @@ class HiddenProcess:
         hpp_title += title_num_str + '_'
         # print(codeText)
         if codeText.find('Solution') != -1:
-            eng_title = codeText.split('(')[0].split(' ')[-1]
+            eng_title = codeText.split('Solution')[1].split('(')[0].split(' ')[-1]
             hpp_title += eng_title + '.hpp'
-            # 写入.hpp文件
+            # .hpp文件文本
             hpp_text = '#include"tools.hpp"\n'
             hpp_text += codeText.replace('};', '')
             hpp_text += '\n    void test(){\n        std::cout<<"test start"<<std::endl;\n    }\n};'
         else:
             eng_title = codeText.split('\nclass ')[1].split(' {')[0]
             hpp_title += eng_title + '.hpp'
-            # 写入.hpp文件
+            # .hpp文件文本
             hpp_text = '#include"tools.hpp"\n'
             hpp_text += codeText
             hpp_text += 'class Solution {\npublic:\n    void test(){\n        std::cout<<"test start"<<std::endl;\n    }\n};'
@@ -152,7 +152,7 @@ class HiddenProcess:
         hpp_text = add_std(hpp_text)
         # 判断是否已经存在文件，如果有就不改了
         if not os.path.exists(folder_path + '/include/' + hpp_title):
-            print('hpp')
+            send_message('{"text":"writing .hpp"}')
             with open(folder_path + '/include/' + hpp_title, 'w', encoding='utf-8')as hpp_f:
                 hpp_f.write(hpp_text)
         # 修改 main.cpp
@@ -167,15 +167,16 @@ class HiddenProcess:
         os.startfile(main_path)
 
         # 文档部分
-        note_name = hpp_title.split('.')[0] + '.html'
-        with open(folder_path + '/notes/' + note_name, 'w', encoding='utf-8')as html_f:
-            html_f.write('<p>' + title + '</p>\n\n')
-            html_f.write(qContent)
-        note_name = note_name.split('.')[0] + '.md'
-        with open(folder_path + '/notes/' + note_name, 'w', encoding='utf-8')as md_f:
-            md_f.write('# ' + title + '\n')
-            md_f.write(html2md(qContent))
+        # todo: 增加代码区域和题解区域
+        note_name = hpp_title.split('.')[0] + '.md'
+        if not os.path.exists(folder_path + '/notes/' + note_name):
+            send_message('{"text":"writing .md"}')
+            with open(folder_path + '/notes/' + note_name, 'w', encoding='utf-8')as md_f:
+                md_f.write('# ' + title + '\n')
+                md_f.write(html2md(qContent))
+                md_f.write("\n## 我的代码\n```c++\n```\n> \n\n## 题解\n")
         os.startfile(folder_path + '/notes/' + note_name)
+
 
 
 def Main():
