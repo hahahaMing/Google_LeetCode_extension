@@ -148,8 +148,10 @@ class HiddenProcess:
             hpp_text = '#include"tools.hpp"\n'
             hpp_text += codeText
             hpp_text += 'class Solution {\npublic:\n    void test(){\n        std::cout<<"test start"<<std::endl;\n    }\n};'
-
+        # 保护函数名类名 同时增加 std::
+        hpp_text = hpp_text.replace(hpp_title.split('_')[1].split('.')[0], 'hpp_title')
         hpp_text = add_std(hpp_text)
+        hpp_text = hpp_text.replace('hpp_title', hpp_title.split('_')[1].split('.')[0])
         # 判断是否已经存在文件，如果有就不改了
         if not os.path.exists(folder_path + '/include/' + hpp_title):
             send_message('{"text":"writing .hpp"}')
@@ -176,7 +178,6 @@ class HiddenProcess:
                 md_f.write(html2md(qContent))
                 md_f.write("\n## 我的代码\n```c++\n```\n> \n\n## 题解\n")
         os.startfile(folder_path + '/notes/' + note_name)
-
 
 
 def Main():
