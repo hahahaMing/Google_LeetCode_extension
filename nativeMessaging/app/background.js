@@ -70,19 +70,22 @@ function sendMessages2PythonScript() {
   port.onDisconnect.addListener(onDisconnected);
   count = 0;
   //发送信息，等待py脚本回复连接成功
+  chrome.action.setBadgeText({text: 'cnet'});
   connectInterval = setInterval(connect, 500); 
+  
   count = 0;
   //发送data,等待py回复接收成功
+  chrome.action.setBadgeText({text: 'stdt'});
   sendDataInterval = setInterval(sendData, 500);
   //结束
 }
 
 //设置初始图标前文字为空
-chrome.action.setBadgeText({text: 'wait'});
+chrome.action.setBadgeText({text: ''});
 //点击按钮，开始与py脚本通信
 chrome.action.onClicked.addListener(sendMessages2PythonScript);
 
-//与内嵌脚本通信，获取data
+//与内嵌脚本通信，获取data，badge：got
 chrome.runtime.onMessage.addListener(
   function (request, sender, sendResponse) {
     console.log(sender.tab ?
