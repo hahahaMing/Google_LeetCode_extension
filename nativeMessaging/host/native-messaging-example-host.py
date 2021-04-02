@@ -126,10 +126,15 @@ class HiddenProcess:
         codeText = self.data_dic['codeText'].encode('utf-8').decode('utf-8')
         # 搞定。。。
         codeText = codeText.replace('\xa0', ' ')
-        title_num_str = title.split('.')[0]
-        # print(codeText)
         eng_title = ''
         hpp_title = 'q'
+        title_num_str = title.split('.')[0]
+        if title.find('面试题') != -1:
+            send_message('{"text":"m"}')
+            hpp_title = 'm'
+            title_num_str = title.split('面试题 ')[1]
+            title_num_str = title_num_str.split('.')[0] + title_num_str.split('.')[1]
+
         for i in range(4 - len(title_num_str)):
             hpp_title += '0'
         hpp_title += title_num_str + '_'

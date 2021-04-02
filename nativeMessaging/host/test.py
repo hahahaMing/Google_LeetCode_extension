@@ -55,33 +55,38 @@ with open('test.json', encoding='utf-8')as fp:
 
     # print(title,qContent,codeText)
     codeText = codeText.replace('\xa0', ' ')
-    title_num_str = title.split('.')[0]
-    # print(codeText)
     eng_title = ''
     hpp_title = 'q'
+    title_num_str = title.split('.')[0]
+    if title.find('面试题') != -1:
+        hpp_title = 'm'
+        title_num_str = title.split('面试题 ')[1]
+        title_num_str = title_num_str.split('.')[0] + title_num_str.split('.')[1]
+
     for i in range(4 - len(title_num_str)):
         hpp_title += '0'
     hpp_title += title_num_str + '_'
     # print(codeText)
     if codeText.find('Solution') != -1:
-        eng_title = codeText.split('(')[0].split(' ')[-1]
+        eng_title = codeText.split('Solution')[1].split('(')[0].split(' ')[-1]
         hpp_title += eng_title + '.hpp'
-        # 写入.hpp文件
+        # .hpp文件文本
         hpp_text = '#include"tools.hpp"\n'
         hpp_text += codeText.replace('};', '')
         hpp_text += '\n    void test(){\n        std::cout<<"test start"<<std::endl;\n    }\n};'
     else:
         eng_title = codeText.split('\nclass ')[1].split(' {')[0]
         hpp_title += eng_title + '.hpp'
-        # 写入.hpp文件
+        # .hpp文件文本
         hpp_text = '#include"tools.hpp"\n'
         hpp_text += codeText
         hpp_text += 'class Solution {\npublic:\n    void test(){\n        std::cout<<"test start"<<std::endl;\n    }\n};'
-
+    # 保护函数名类名 同时增加 std::
+    hpp_text = hpp_text.replace(hpp_title.split('_')[1].split('.')[0], 'hpp_title')
     hpp_text = add_std(hpp_text)
+    hpp_text = hpp_text.replace('hpp_title', hpp_title.split('_')[1].split('.')[0])
     # 判断是否已经存在文件，如果有就不改了
     if not os.path.exists(folder_path + '/include/' + hpp_title):
-        print('hpp')
         with open(folder_path + '/include/' + hpp_title, 'w', encoding='utf-8')as hpp_f:
             hpp_f.write(hpp_text)
     # 修改 main.cpp
@@ -94,14 +99,3 @@ with open('test.json', encoding='utf-8')as fp:
         main_f.write(main_text)
     # 打开clion
     os.startfile(main_path)
-
-    # 文档部分
-    note_name = hpp_title.split('.')[0] + '.html'
-    with open(folder_path + '/notes/' + note_name, 'w', encoding='utf-8')as html_f:
-        html_f.write('<p>' + title + '</p>\n\n')
-        html_f.write(qContent)
-    note_name = note_name.split('.')[0] + '.md'
-    with open(folder_path + '/notes/' + note_name, 'w', encoding='utf-8')as md_f:
-        md_f.write('# ' + title + '\n')
-        md_f.write(html2md(qContent))
-    os.startfile(folder_path + '/notes/' + note_name)
