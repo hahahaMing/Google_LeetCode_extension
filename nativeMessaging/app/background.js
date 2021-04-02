@@ -20,10 +20,15 @@ function onNativeMessage(message) {
     clearInterval(sendDataInterval);
     console.log("get recieved!");
   }
+  else if (JSON.stringify(message) == '{"text":"auto_movement"}') {
+    chrome.action.setBadgeText({text: 'auto'});
+  }
   else if (JSON.stringify(message) == '{"text":"bye"}') {
     console.log("close port");
     chrome.action.setBadgeText({text: 'done'});
   }
+  
+
 }
 
 function connect() {
@@ -61,7 +66,10 @@ function sendData() {
 function sendMessages2PythonScript() {
 
   //判断data是否准备好
-  if (!(questionTitle && questionContent && codeContent)) console.log("data not complete, please refresh the page!");
+  if (!(questionTitle && questionContent && codeContent)){
+    console.log("data not complete, please refresh the page!");
+    chrome.action.setBadgeText({text: 'nodt'});
+  } 
 
   //连接py脚本
   console.log("Connecting to native messaging host" + hostName);
