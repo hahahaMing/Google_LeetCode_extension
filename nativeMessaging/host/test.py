@@ -74,6 +74,15 @@ with open('test.json', encoding='utf-8')as fp:
         hpp_text = '#include"tools.hpp"\n'
         hpp_text += codeText.replace('};', '')
         hpp_text += '\n    void test(){\n        std::cout<<"test start"<<std::endl;\n    }\n};'
+        # 这里加一个测试用例编写
+        # 其实就是把括号里的东西逗号改为分号，最后加分号，去掉 “&”
+        
+
+        # 定义输入变量（使用初始化函数表）
+
+        # 加一句输出（使用打印函数表）
+
+
     else:
         eng_title = codeText.split('\nclass ')[1].split(' {')[0]
         hpp_title += eng_title + '.hpp'

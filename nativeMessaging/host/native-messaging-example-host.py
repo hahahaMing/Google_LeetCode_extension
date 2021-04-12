@@ -58,6 +58,8 @@ def html2md(s: str) -> str:
     s = s.replace('&lt;', "<")
     s = s.replace('<sup>', " ^ ")
     s = s.replace('</sup>', "")
+    s = s.replace('&gt', ">")
+
     return s
 
 
@@ -105,7 +107,7 @@ class HiddenProcess:
                     self.connected = True
                     send_message('{"text":"connected"}')
             else:
-                if message.find('data'):
+                if message.find('data') != -1:
                     send_message('{"text":"received"}')
                     self.data = message
 
@@ -121,9 +123,11 @@ class HiddenProcess:
             f.write(self.data)
         with open('test.json', encoding='utf-8')as fp:
             self.data_dic = json.load(fp)
+        send_message('{"text":"auto_movement_0.5"}')
         title = self.data_dic['title'].encode('utf-8').decode('utf-8')
         qContent = self.data_dic['qContent'].encode('utf-8').decode('utf-8')
         codeText = self.data_dic['codeText'].encode('utf-8').decode('utf-8')
+        send_message('{"text":"auto_movement_1"}')
         # 搞定。。。
         codeText = codeText.replace('\xa0', ' ')
         eng_title = ''
@@ -170,12 +174,14 @@ class HiddenProcess:
             main_text += old_main_str[old_include_len + 1:]
         with open(main_path, 'w', encoding='utf-8')as main_f:
             main_f.write(main_text)
-        # 打开clion
-        os.startfile(main_path)
-
+        send_message('{"text":"auto_movement_1.5"}')
+        # os.startfile(main_path)# 打开clion（需要设置默认打开程序为clion）
+        os.startfile(folder_path+'/launch_with_vscode.bat')# 打开clion（需要设置默认打开程序为clion）
+        send_message('{"text":"auto_movement_2"}')
         # 文档部分
-        # todo: 增加代码区域和题解区域
-        note_name = hpp_title.split('.')[0] + '.md'
+        # 增加代码区域和题解区域
+        note_name = title + '.md'
+        note_name = note_name.replace(' ', '')
         if not os.path.exists(folder_path + '/notes/' + note_name):
             send_message('{"text":"writing .md"}')
             with open(folder_path + '/notes/' + note_name, 'w', encoding='utf-8')as md_f:
