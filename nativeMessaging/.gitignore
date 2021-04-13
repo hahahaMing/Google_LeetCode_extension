@@ -1,1 +1,4 @@
 host/.idea
+test_cmake/build
+test_cmake/.idea
+test_cmake/cmake-build-debug
