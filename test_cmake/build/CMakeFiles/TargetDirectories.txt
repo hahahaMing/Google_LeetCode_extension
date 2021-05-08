@@ -1,3 +1,0 @@
-E:/self_study/git/Google_LeetCode_extension/test_cmake/build/CMakeFiles/cmakeTest.dir
-E:/self_study/git/Google_LeetCode_extension/test_cmake/build/CMakeFiles/edit_cache.dir
-E:/self_study/git/Google_LeetCode_extension/test_cmake/build/CMakeFiles/rebuild_cache.dir

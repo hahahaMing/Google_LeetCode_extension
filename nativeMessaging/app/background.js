@@ -64,7 +64,6 @@ function sendData() {
 }
 
 function sendMessages2PythonScript() {
-
   //判断data是否准备好
   if (!(questionTitle && questionContent && codeContent)) {
     console.log("data not complete, please refresh the page!");
