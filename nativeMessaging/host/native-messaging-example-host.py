@@ -23,7 +23,9 @@ if sys.platform == "win32":
 
 # folder_path = 'E:/self_study/git/Google_LeetCode_extension/test_cmake'
 folder_path = 'E:/self_study/git/cmake_demo'
-
+# folder_path = 'E:\\self_study\\git\\cmake_demo'
+src_path = folder_path + '/src'
+CML_path = folder_path + '/CMakeLists.txt'
 main_path = folder_path + '/main.cpp'
 
 
@@ -123,70 +125,74 @@ class HiddenProcess:
             f.write(self.data)
         with open('test.json', encoding='utf-8') as fp:
             self.data_dic = json.load(fp)
-        send_message('{"text":"auto_movement_0.5"}')
+        send_message('{"text":"get data from json"}')
         title = self.data_dic['title'].encode('utf-8').decode('utf-8')
         qContent = self.data_dic['qContent'].encode('utf-8').decode('utf-8')
         codeText = self.data_dic['codeText'].encode('utf-8').decode('utf-8')
-        send_message('{"text":"auto_movement_1"}')
-        # 搞定。。。
+        send_message('{"text":"data to utf-8"}')
+
         codeText = codeText.replace('\xa0', ' ')
-        eng_title = ''
-        hpp_title = 'q'
+        cpp_title = 'q'
         title_num_str = title.split('.')[0]
+        # 修改cmake_list文件以达到使用命名空间的目的
+        # 面试题使用 m开头
         if title.find('面试题') != -1:
             send_message('{"text":"m"}')
-            hpp_title = 'm'
+            cpp_title = 'm'
             title_num_str = title.split('面试题 ')[1]
             title_num_str = title_num_str.split('.')[0] + title_num_str.split(
                 '.')[1]
-
+        # 补 0 使编号为 5 个字符
         for i in range(4 - len(title_num_str)):
-            hpp_title += '0'
-        hpp_title += title_num_str + '_'
-        # print(codeText)
-        if codeText.find('Solution') != -1:
-            eng_title = codeText.split('Solution')[1].split('(')[0].split(
-                ' ')[-1]
-            hpp_title += eng_title + '.hpp'
-            # .hpp文件文本
-            hpp_text = '#include"tools.hpp"\n'
-            hpp_text += codeText.replace('};', '')
-            hpp_text += '\n    void test(){\n        std::cout<<"test start"<<std::endl;\n    }\n};'
-        else:
-            eng_title = codeText.split('\nclass ')[1].split(' {')[0]
-            hpp_title += eng_title + '.hpp'
-            # .hpp文件文本
-            hpp_text = '#include"tools.hpp"\n'
-            hpp_text += codeText
-            hpp_text += 'class Solution {\npublic:\n    void test(){\n                                        std::cout<<"test start"<<std::endl;\n    }\n};'
-        # 保护函数名类名 同时增加 std::
-        hpp_text = hpp_text.replace(
-            hpp_title.split('_')[1].split('.')[0], 'hpp_title')
-        hpp_text = add_std(hpp_text)
-        hpp_text = hpp_text.replace('hpp_title',
-                                    hpp_title.split('_')[1].split('.')[0])
+            cpp_title += '0'
+        cpp_title += title_num_str + '_'
+        # .cpp文件文本
+        cpp_text = '#include"tools.hpp"\n\nusing namespace std;\n\n'
+        cpp_text += codeText
+        cpp_text += '\n\n// Start testing!\nint main() {\n    cout << "hello cmake!" << endl;\n    // Solution slt;\n    \n    return 0;\n}\n'
+
+        # 提取英文名字
+        try:
+            if codeText.find('Solution') != -1:  # 正常题目
+                eng_title = codeText.split('Solution')[1].split('(')[0].split(
+                    ' ')[-1]
+                # TODO: .cpp文件文本增加测试样例
+            else:  # 设计类题目
+                if codeText[0] != '/':
+                    eng_title = codeText.split('class ')[1].split(' {')[0]
+                else:
+                    eng_title = codeText.split('\nclass ')[1].split(
+                        ' {')[0][1].split(' {')[0]
+            cpp_title += eng_title
+            send_message('{"eng_title":"' + eng_title + '"}')
+        except Exception:
+            send_message('{"ERROR":"extract English name failed!"}')
+
+        cpp_title += '.cpp'
+        send_message('{"text":"cpp_title:' + cpp_title + '"}')
         # 判断是否已经存在文件，如果有就不改了
-        if not os.path.exists(folder_path + '/include/' + hpp_title):
-            send_message('{"text":"writing .hpp"}')
-            with open(folder_path + '/include/' + hpp_title,
-                      'w',
-                      encoding='utf-8') as hpp_f:
-                hpp_f.write(hpp_text)
-        # 修改 main.cpp
-        main_text = '#include"' + hpp_title + '"\n'
-        with open(main_path, 'r', encoding='utf-8') as main_f:
-            old_main_str = main_f.read()
-            old_include_len = len(old_main_str.split('\n')[0])
-            main_text += old_main_str[old_include_len + 1:]
-        with open(main_path, 'w', encoding='utf-8') as main_f:
-            main_f.write(main_text)
-        send_message('{"text":"auto_movement_1.5"}')
-        # os.startfile(main_path)# 打开clion（需要设置默认打开程序为clion）
-        os.startfile(folder_path +
-                     '/launch_with_vscode.bat')  # 打开clion（需要设置默认打开程序为clion）
-        send_message('{"text":"auto_movement_2"}')
-        # 文档部分
-        # 增加代码区域和题解区域
+        if not os.path.exists(src_path + '/' + cpp_title):
+            send_message('{"text":"writing:' + cpp_title + '"}')
+            with open(src_path + '/' + cpp_title, 'w',
+                      encoding='utf-8') as cpp_f:
+                cpp_f.write(cpp_text)
+        #：修改bat文件，用于自动打开vscode并定位到编辑文件
+        with open(folder_path + '/launch_with_vscode.bat',
+                  'w',
+                  encoding='utf-8') as bat_f:
+            bat_f.write("code " + folder_path + ' && ')
+            bat_f.write("code " + src_path + '/' + cpp_title)
+
+        # 修改 CMakeLists.txt
+        with open(CML_path, 'w', encoding='utf-8') as cml_f:
+            send_message('{"text":"writing:CMakeLists.txt"}')
+            cml_f.write(
+                '# cmake 的最小版本要求\ncmake_minimum_required(VERSION 3.12)\n\n# 这个CMakeLists管理的工程名称\nproject(cmakeTest)\n\n# 设置C++标准为 C++ 11\nset(CMAKE_CXX_STANDARD 17)\n\n#设定头文件目录,主程序中的#include的.h文件坐在的目录\nINCLUDE_DIRECTORIES( ${PROJECT_SOURCE_DIR}/include)\n\n#生成可执行程序 语法:add_executable(可执行程序名 要编译的cpp)\nadd_executable(cmake_demo src/'
+                + cpp_title + ' )')
+
+        os.startfile(folder_path + '/launch_with_vscode.bat')  # bat打开vscode
+
+        ## 文档部分
         note_name = title + '.md'
         note_name = note_name.replace(' ', '')
         if not os.path.exists(folder_path + '/notes/' + note_name):
@@ -196,8 +202,12 @@ class HiddenProcess:
                       encoding='utf-8') as md_f:
                 md_f.write('# ' + title + '\n')
                 md_f.write(html2md(qContent))
-                md_f.write("\n## 我的代码\n```c++\n```\n> \n\n## 题解\n")
+                md_f.write(
+                    "\n## 我的代码\n\n```c++\n```\n> \n\n## 题解\n\n```c++\n```\n\n## 标签\n[0.典型题.md](0.典型题.md)\n\n## 知识点\n"
+                )
+
         os.startfile(folder_path + '/notes/' + note_name)
+        send_message('{"text":"auto_movement_3"}')
 
 
 def Main():

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/self_study/git/Google_LeetCode_extension/test_cmake/main.cpp" "E:/self_study/git/Google_LeetCode_extension/test_cmake/build/CMakeFiles/cmakeTest.dir/main.cpp.obj"
+  "E:/self_study/git/Google_LeetCode_extension/test_cmake/src/q0208_Trie.cpp" "E:/self_study/git/Google_LeetCode_extension/test_cmake/build/CMakeFiles/cmakeTest.dir/src/q0208_Trie.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/tools.hpp
+sstream
+-
+chrono
+-
+iostream
+../include/iostream
+stdlib.h
+../include/stdlib.h
+vector
+../include/vector
+cmath
+../include/cmath
+algorithm
+../include/algorithm
+map
+../include/map
+fstream
+../include/fstream
+queue
+../include/queue
+unordered_map
+../include/unordered_map
+unordered_set
+../include/unordered_set
+stack
+../include/stack
+list
+../include/list
+time.h
+../include/time.h
+
+E:/self_study/git/Google_LeetCode_extension/test_cmake/src/q0208_Trie.cpp
+tools.hpp
+E:/self_study/git/Google_LeetCode_extension/test_cmake/src/tools.hpp
+

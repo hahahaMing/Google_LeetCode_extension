@@ -1,7 +1,7 @@
 [
 {
   "directory": "E:/self_study/git/Google_LeetCode_extension/test_cmake/build",
-  "command": "\"C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/c++.exe\"   @CMakeFiles/cmakeTest.dir/includes_CXX.rsp -g   -std=gnu++14 -o CMakeFiles/cmakeTest.dir/main.cpp.obj -c E:/self_study/git/Google_LeetCode_extension/test_cmake/main.cpp",
-  "file": "E:/self_study/git/Google_LeetCode_extension/test_cmake/main.cpp"
+  "command": "\"C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/c++.exe\"   @CMakeFiles/cmakeTest.dir/includes_CXX.rsp -g   -std=gnu++14 -o CMakeFiles/cmakeTest.dir/src/q0208_Trie.cpp.obj -c E:/self_study/git/Google_LeetCode_extension/test_cmake/src/q0208_Trie.cpp",
+  "file": "E:/self_study/git/Google_LeetCode_extension/test_cmake/src/q0208_Trie.cpp"
 }
 ]

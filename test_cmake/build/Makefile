@@ -143,32 +143,32 @@ cmakeTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmakeTest.dir/build.make CMakeFiles/cmakeTest.dir/build
 .PHONY : cmakeTest/fast
 
-main.obj: main.cpp.obj
+src/q0208_Trie.obj: src/q0208_Trie.cpp.obj
 
-.PHONY : main.obj
+.PHONY : src/q0208_Trie.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmakeTest.dir/build.make CMakeFiles/cmakeTest.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/q0208_Trie.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmakeTest.dir/build.make CMakeFiles/cmakeTest.dir/src/q0208_Trie.cpp.obj
+.PHONY : src/q0208_Trie.cpp.obj
 
-main.i: main.cpp.i
+src/q0208_Trie.i: src/q0208_Trie.cpp.i
 
-.PHONY : main.i
+.PHONY : src/q0208_Trie.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmakeTest.dir/build.make CMakeFiles/cmakeTest.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/q0208_Trie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmakeTest.dir/build.make CMakeFiles/cmakeTest.dir/src/q0208_Trie.cpp.i
+.PHONY : src/q0208_Trie.cpp.i
 
-main.s: main.cpp.s
+src/q0208_Trie.s: src/q0208_Trie.cpp.s
 
-.PHONY : main.s
+.PHONY : src/q0208_Trie.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmakeTest.dir/build.make CMakeFiles/cmakeTest.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/q0208_Trie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmakeTest.dir/build.make CMakeFiles/cmakeTest.dir/src/q0208_Trie.cpp.s
+.PHONY : src/q0208_Trie.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cmakeTest"
-	@echo "... main.obj"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/q0208_Trie.obj"
+	@echo "... src/q0208_Trie.i"
+	@echo "... src/q0208_Trie.s"
 .PHONY : help
 
 

@@ -77,28 +77,28 @@ include CMakeFiles/cmakeTest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cmakeTest.dir/flags.make
 
-CMakeFiles/cmakeTest.dir/main.cpp.obj: CMakeFiles/cmakeTest.dir/flags.make
-CMakeFiles/cmakeTest.dir/main.cpp.obj: CMakeFiles/cmakeTest.dir/includes_CXX.rsp
-CMakeFiles/cmakeTest.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:/self_study/git/Google_LeetCode_extension/test_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cmakeTest.dir/main.cpp.obj"
-	"C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/c++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmakeTest.dir/main.cpp.obj -c E:/self_study/git/Google_LeetCode_extension/test_cmake/main.cpp
+CMakeFiles/cmakeTest.dir/src/q0208_Trie.cpp.obj: CMakeFiles/cmakeTest.dir/flags.make
+CMakeFiles/cmakeTest.dir/src/q0208_Trie.cpp.obj: CMakeFiles/cmakeTest.dir/includes_CXX.rsp
+CMakeFiles/cmakeTest.dir/src/q0208_Trie.cpp.obj: ../src/q0208_Trie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:/self_study/git/Google_LeetCode_extension/test_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cmakeTest.dir/src/q0208_Trie.cpp.obj"
+	"C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/c++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmakeTest.dir/src/q0208_Trie.cpp.obj -c E:/self_study/git/Google_LeetCode_extension/test_cmake/src/q0208_Trie.cpp
 
-CMakeFiles/cmakeTest.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmakeTest.dir/main.cpp.i"
-	"C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:/self_study/git/Google_LeetCode_extension/test_cmake/main.cpp > CMakeFiles/cmakeTest.dir/main.cpp.i
+CMakeFiles/cmakeTest.dir/src/q0208_Trie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmakeTest.dir/src/q0208_Trie.cpp.i"
+	"C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:/self_study/git/Google_LeetCode_extension/test_cmake/src/q0208_Trie.cpp > CMakeFiles/cmakeTest.dir/src/q0208_Trie.cpp.i
 
-CMakeFiles/cmakeTest.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmakeTest.dir/main.cpp.s"
-	"C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:/self_study/git/Google_LeetCode_extension/test_cmake/main.cpp -o CMakeFiles/cmakeTest.dir/main.cpp.s
+CMakeFiles/cmakeTest.dir/src/q0208_Trie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmakeTest.dir/src/q0208_Trie.cpp.s"
+	"C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:/self_study/git/Google_LeetCode_extension/test_cmake/src/q0208_Trie.cpp -o CMakeFiles/cmakeTest.dir/src/q0208_Trie.cpp.s
 
 # Object files for target cmakeTest
 cmakeTest_OBJECTS = \
-"CMakeFiles/cmakeTest.dir/main.cpp.obj"
+"CMakeFiles/cmakeTest.dir/src/q0208_Trie.cpp.obj"
 
 # External object files for target cmakeTest
 cmakeTest_EXTERNAL_OBJECTS =
 
-cmakeTest.exe: CMakeFiles/cmakeTest.dir/main.cpp.obj
+cmakeTest.exe: CMakeFiles/cmakeTest.dir/src/q0208_Trie.cpp.obj
 cmakeTest.exe: CMakeFiles/cmakeTest.dir/build.make
 cmakeTest.exe: CMakeFiles/cmakeTest.dir/linklibs.rsp
 cmakeTest.exe: CMakeFiles/cmakeTest.dir/objects1.rsp

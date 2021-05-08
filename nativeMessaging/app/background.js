@@ -110,7 +110,14 @@ chrome.runtime.onMessage.addListener(
     console.log(codeContent);
     if (request.greeting == "hello")
       sendResponse({ farewell: "got it!" });
-    chrome.action.setBadgeText({ text: 'got' });
+    if (!(questionTitle && questionContent && codeContent)) {
+      console.log("data not complete, please refresh the page!");
+      chrome.action.setBadgeText({ text: 'nodt' });
+      // TODO:稳定的与注入脚本的通信，查看nodt原因
+    } else {
+      chrome.action.setBadgeText({ text: 'got' });
+    }
+
 
 
   }

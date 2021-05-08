@@ -9,10 +9,10 @@ window.onload = function () {
         questionContent = document.querySelector("#question-detail-main-tabs > div.tab-pane__1SHj.css-12hreja-TabContent.e16udao5 > div > div.content__1Y2H > div").innerHTML;
         codeContent = document.querySelector("div.view-lines").innerText;
     }
-    catch(err){
-        alert("data not complete, please refresh the page!");
+    catch (err) {
+        // alert("data not complete, please refresh the page!");
     }
-    
+
 
     console.log(questionTitle);
     console.log(questionContent);

@@ -11,4 +11,4 @@ set(CMAKE_CXX_STANDARD 17)
 INCLUDE_DIRECTORIES( ${PROJECT_SOURCE_DIR}/include)
 
 #生成可执行程序 语法:add_executable(可执行程序名 要编译的cpp)
-add_executable(cmakeTest src/q0208_Trie.cpp )
+add_executable(cmakeTest ${PROJECT_SOURCE_DIR}/src/q0208_Trie.cpp )
