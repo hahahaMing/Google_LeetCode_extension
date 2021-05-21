@@ -64,6 +64,7 @@ function sendData() {
 }
 
 function sendMessages2PythonScript() {
+  console.log('sendMessages2PythonScript');
   //判断data是否准备好
   if (!(questionTitle && questionContent && codeContent)) {
     console.log("data not complete, please refresh the page!");
@@ -90,10 +91,29 @@ function sendMessages2PythonScript() {
 
 }
 
+function knockContentScript(){
+  chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+    chrome.tabs.sendMessage(tabs[0].id, {greeting: "hello"}, function(response) {
+      console.log(response.farewell);
+      chrome.action.setBadgeText({ text: response.farewell });
+      if(response.farewell=="got"){
+        questionTitle = response.title;
+        questionContent = response.qContent;
+        codeContent = response.codeText;
+        console.log(questionTitle);
+        console.log(questionContent);
+        console.log(codeContent);
+        
+        sendMessages2PythonScript();
+      }
+    });
+  });
+}
+
 //设置初始图标前文字为空
 chrome.action.setBadgeText({ text: '' });
 //点击按钮，开始与py脚本通信
-chrome.action.onClicked.addListener(sendMessages2PythonScript);
+chrome.action.onClicked.addListener(knockContentScript);
 
 //与内嵌脚本通信，获取data，badge：got
 chrome.runtime.onMessage.addListener(
@@ -115,11 +135,11 @@ chrome.runtime.onMessage.addListener(
       // TODO:稳定的与注入脚本的通信，查看nodt原因
     } else {
       chrome.action.setBadgeText({ text: 'got' });
+      console.log(questionTitle);
     }
 
-
-
   }
+
 );
 
 

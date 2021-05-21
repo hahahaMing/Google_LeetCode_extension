@@ -203,8 +203,8 @@ class HiddenProcess:
                 md_f.write('# ' + title + '\n')
                 md_f.write(html2md(qContent))
                 md_f.write(
-                    "\n## 我的代码\n\n```c++\n```\n> \n\n## 题解\n\n```c++\n```\n\n## 标签\n[0.典型题.md](0.典型题.md)\n\n## 知识点\n"
-                )
+                    "\n## 我的代码\n\n```c++\n```\n> \n\n## 题解\n\n```c++\n```\n\n## 标签\n[0.典型题.md](0.典型题.md)\n["
+                    + note_name + "](" + note_name + ")\n\n## 知识点\n")
 
         os.startfile(folder_path + '/notes/' + note_name)
         send_message('{"text":"auto_movement_3"}')
