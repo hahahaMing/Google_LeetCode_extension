@@ -169,6 +169,7 @@ class HiddenProcess:
             send_message('{"ERROR":"extract English name failed!"}')
 
         cpp_title += '.cpp'
+        cpp_title = cpp_title.replace("*", "")  # 文件名不能加*
         send_message('{"text":"cpp_title:' + cpp_title + '"}')
         # 判断是否已经存在文件，如果有就不改了
         if not os.path.exists(src_path + '/' + cpp_title):
