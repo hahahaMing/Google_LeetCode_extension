@@ -1,0 +1,40 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-06-15 17:17:19
+ * @LastEditTime: 2021-06-15 18:23:28
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \Google_LeetCode_extension\JStest\test1.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js怎么模拟点击网页元素</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="divID">这是div标签</div>
+    </br>
+    <a id="aID" href="#">这是a标签</a>
+</body>
+
+</html>
+<script type="text/javascript">
+    $(function () {
+        //为div哪定点击事件 
+        $("#divID").click(function () {
+            alert("B");
+        });
+        $("#aID").click(function () {
+            alert("A");
+        });
+        $("#divID").trigger("click");
+        $("#aID")[0].click();
+    });
+</script>
+
