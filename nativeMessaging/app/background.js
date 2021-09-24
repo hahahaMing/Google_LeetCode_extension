@@ -1,4 +1,4 @@
-var questionTitle, questionContent, codeContent;
+var questionTitle, questionContent, codeContent,resultInfo;
 var hostName = "com.google.chrome.example.echo";
 var port;
 var count = 0;
@@ -55,7 +55,8 @@ function sendData() {
     "text": "data",
     "title": questionTitle,
     "qContent": questionContent,
-    "codeText": codeContent
+    "codeText": codeContent,
+    "resultText":resultInfo
   };
   port.postMessage(message);
   console.log("Sent message: " + JSON.stringify(message));
@@ -100,10 +101,11 @@ function knockContentScript(){
         questionTitle = response.title;
         questionContent = response.qContent;
         codeContent = response.codeText;
+        resultInfo = response.resultText;
         console.log(questionTitle);
         console.log(questionContent);
         console.log(codeContent);
-        
+        console.log(resultInfo);
         sendMessages2PythonScript();
       }
     });

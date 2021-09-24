@@ -129,11 +129,19 @@ class HiddenProcess:
         title = self.data_dic['title'].encode('utf-8').decode('utf-8')
         qContent = self.data_dic['qContent'].encode('utf-8').decode('utf-8')
         codeText = self.data_dic['codeText'].encode('utf-8').decode('utf-8')
+        resultInfo = self.data_dic['resultText'].encode('utf-8').decode(
+            'utf-8')
         send_message('{"text":"data to utf-8"}')
 
         codeText = codeText.replace('\xa0', ' ')
         cpp_title = 'q'
         title_num_str = title.split('.')[0]
+        if title.find('剑指 Offer ') != -1:
+            send_message('{"text":"offer"}')
+            cpp_title = 'offer'
+            title_num_str = title.split('剑指 Offer ')[1]
+            title_num_str = title_num_str.split('.')[0]
+            send_message('{"text":"cpp_title:' + cpp_title + '"}')
         # 修改cmake_list文件以达到使用命名空间的目的
         # 面试题使用 m开头
         if title.find('面试题') != -1:
@@ -145,16 +153,17 @@ class HiddenProcess:
         # 补 0 使编号为 5 个字符
         for i in range(4 - len(title_num_str)):
             cpp_title += '0'
+        send_message('{"text":"cpp_title:' + cpp_title + '"}')
         cpp_title += title_num_str + '_'
+        send_message('{"text":"cpp_title:' + cpp_title + '"}')
         # .cpp文件文本
         cpp_text = '#include"tools.hpp"\n\nusing namespace std;\n\n'
         cpp_text += codeText
         cpp_text += '\n\n// Start testing!\nint main() {\n    cout << "hello cmake!" << endl;\n    // Solution slt;\n    \n    return 0;\n}\n'
-
         # 提取英文名字
         try:
             if codeText.find('Solution') != -1:  # 正常题目
-                eng_title = codeText.split('Solution')[1].split('(')[0].split(
+                eng_title = codeText.split('Solution')[1].split('public:')[1].split('(')[0].split(
                     ' ')[-1]
                 # TODO: .cpp文件文本增加测试样例
             else:  # 设计类题目
@@ -164,12 +173,14 @@ class HiddenProcess:
                     eng_title = codeText.split('\nclass ')[1].split(
                         ' {')[0][1].split(' {')[0]
             cpp_title += eng_title
+            send_message('{"text":"cpp_title:' + cpp_title + '"}')
             send_message('{"eng_title":"' + eng_title + '"}')
         except Exception:
-            send_message('{"ERROR":"extract English name failed!"}')
-
+            send_message('{"text":"extract English name failed!"}')
+        
         cpp_title += '.cpp'
         cpp_title = cpp_title.replace("*", "")  # 文件名不能加*
+        
         send_message('{"text":"cpp_title:' + cpp_title + '"}')
         # 判断是否已经存在文件，如果有就不改了
         if not os.path.exists(src_path + '/' + cpp_title):
@@ -203,9 +214,13 @@ class HiddenProcess:
                       encoding='utf-8') as md_f:
                 md_f.write('# ' + title + '\n')
                 md_f.write(html2md(qContent))
+                resultInfo = resultInfo.replace('\n',' ')
+                resultInfo = resultInfo.replace('内存消耗','\n内存消耗')
+                
                 md_f.write(
-                    "\n## 我的代码\n\n```c++\n" + codeText +
-                    "\n```\n> \n\n## 题解\n\n```c++\n```\n\n## 标签\n[0.典型题.md](0.典型题.md)\n["
+                    "\n## 我的代码\n\n```c++\n" + codeText + "\n```\n> " +
+                    resultInfo +
+                    "\n\n## 题解\n\n```c++\n```\n\n## 标签\n[0.典型题.md](0.典型题.md)\n["
                     + note_name + "](" + note_name + ")\n\n## 知识点\n")
 
         os.startfile(folder_path + '/notes/' + note_name)
