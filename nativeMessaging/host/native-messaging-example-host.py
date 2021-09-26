@@ -22,7 +22,7 @@ if sys.platform == "win32":
     msvcrt.setmode(sys.stdout.fileno(), os.O_BINARY)
 
 # folder_path = 'E:/self_study/git/Google_LeetCode_extension/test_cmake'
-folder_path = 'E:/self_study/git/cmake_demo'
+folder_path = 'D:\SelfStudy\Git\cmake_demo'
 # folder_path = 'E:\\self_study\\git\\cmake_demo'
 src_path = folder_path + '/src'
 CML_path = folder_path + '/CMakeLists.txt'
