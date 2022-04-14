@@ -1,0 +1,1074 @@
+10/02/2021 17:42:34 PM - INFO - 接收线程开启successful.
+10/02/2021 17:42:45 PM - INFO - 处理接收信息successful.
+10/03/2021 17:33:15 PM - INFO - 接收线程开启successful.
+10/03/2021 17:33:25 PM - INFO - 处理接收信息successful.
+11/01/2021 09:54:57 AM - INFO - 接收线程开启successful.
+11/01/2021 09:55:08 AM - INFO - 处理接收信息successful.
+11/01/2021 09:56:40 AM - INFO - 接收线程开启successful.
+11/01/2021 09:56:51 AM - INFO - 处理接收信息successful.
+11/03/2021 11:07:11 AM - INFO - 接收线程开启successful.
+11/03/2021 11:23:19 AM - INFO - 接收线程开启successful.
+11/03/2021 11:23:42 AM - INFO - 接收线程开启successful.
+11/03/2021 11:23:53 AM - INFO - 处理接收信息successful.
+11/03/2021 14:24:17 PM - INFO - 接收线程开启successful.
+11/03/2021 14:24:28 PM - INFO - 处理接收信息successful.
+11/03/2021 14:25:42 PM - INFO - 接收线程开启successful.
+11/03/2021 14:37:32 PM - INFO - 接收线程开启successful.
+11/03/2021 14:37:43 PM - INFO - 处理接收信息successful.
+11/03/2021 14:37:53 PM - INFO - 接收线程开启successful.
+11/03/2021 14:38:04 PM - INFO - 处理接收信息successful.
+11/03/2021 14:41:07 PM - INFO - 接收线程开启successful.
+11/03/2021 14:41:18 PM - INFO - 处理接收信息successful.
+11/03/2021 14:42:49 PM - INFO - 接收线程开启successful.
+11/03/2021 14:43:00 PM - INFO - 处理接收信息successful.
+11/03/2021 15:02:16 PM - INFO - 接收线程开启successful.
+11/03/2021 15:02:27 PM - INFO - 处理接收信息successful.
+11/03/2021 15:02:27 PM - INFO - sending: {"text":"auto_movement"}
+11/03/2021 15:08:30 PM - INFO - 接收线程开启successful.
+11/03/2021 15:08:30 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:30 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:30 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:30 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:30 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:30 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:30 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:30 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:31 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:31 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:31 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:31 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:31 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:31 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:31 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:31 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:31 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:32 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:32 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:32 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:32 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:32 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:32 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:32 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:32 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:32 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:33 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:33 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:33 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:33 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:33 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:33 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:33 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:33 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:33 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:33 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:34 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:34 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:34 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:34 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:34 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:34 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:34 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:34 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:34 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:35 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:35 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:35 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:35 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:35 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:35 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:35 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:35 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:35 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:36 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:36 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:36 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:36 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:36 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:36 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:36 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:36 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:36 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:37 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:37 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:37 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:37 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:37 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:37 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:37 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:37 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:37 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:38 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:38 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:38 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:38 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:38 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:38 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:38 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:38 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:38 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:39 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:39 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:39 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:39 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:39 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:39 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:39 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:39 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:39 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:39 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:40 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:40 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:40 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:40 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:40 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:40 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:40 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:40 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:40 PM - INFO - 处理接收信息successful.
+11/03/2021 15:08:40 PM - INFO - sending: {"text":"auto_movement"}
+11/03/2021 15:08:59 PM - INFO - 接收线程开启successful.
+11/03/2021 15:08:59 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:59 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:59 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:59 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:59 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:59 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:08:59 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:00 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:00 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:00 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:00 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:00 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:00 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:00 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:00 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:00 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:01 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:01 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:01 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:01 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:01 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:01 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:01 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:01 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:01 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:02 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:02 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:02 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:02 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:02 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:02 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:02 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:02 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:02 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:02 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:03 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:03 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:03 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:03 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:03 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:03 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:03 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:03 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:03 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:04 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:04 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:04 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:04 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:04 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:04 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:04 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:04 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:04 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:05 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:05 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:05 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:05 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:05 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:05 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:05 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:05 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:05 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:06 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:06 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:06 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:06 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:06 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:06 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:06 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:06 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:06 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:07 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:07 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:07 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:07 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:07 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:07 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:07 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:07 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:07 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:08 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:08 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:08 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:08 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:08 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:08 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:08 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:08 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:08 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:09 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:09 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:09 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:09 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:09 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:09 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:09 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:09 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:09 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:09 PM - WARNING - no data recieved, delay 0.1s.
+11/03/2021 15:09:10 PM - INFO - 处理接收信息successful.
+11/03/2021 15:09:10 PM - INFO - sending: {"text":"auto_movement"}
+11/03/2021 15:09:56 PM - INFO - 接收线程开启successful.
+11/03/2021 15:10:19 PM - INFO - 接收线程开启successful.
+11/03/2021 15:10:31 PM - INFO - 接收线程开启successful.
+11/03/2021 15:10:31 PM - INFO - 接收线程开启successful.
+11/03/2021 15:11:00 PM - INFO - 接收线程开启successful.
+11/03/2021 15:11:00 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:00 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:00 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:00 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:01 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:01 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:01 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:01 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:01 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:01 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:01 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:01 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:01 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:02 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:02 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:02 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:02 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:02 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:02 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:02 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:02 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:02 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:02 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:03 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:03 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:03 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:03 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:03 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:03 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:03 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:03 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:03 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:04 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:04 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:04 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:04 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:04 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:04 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:04 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:04 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:04 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:05 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:05 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:05 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:05 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:05 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:05 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:05 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:05 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:05 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:06 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:06 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:06 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:06 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:06 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:06 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:06 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:06 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:06 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:07 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:07 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:07 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:07 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:07 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:07 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:07 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:07 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:07 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:08 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:08 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:08 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:08 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:08 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:08 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:08 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:08 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:08 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:08 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:09 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:09 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:09 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:09 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:09 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:09 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:09 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:09 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:09 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:10 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:10 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:10 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:10 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:10 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:10 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:10 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:10 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:10 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:11 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:11 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:11 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:11:11 PM - INFO - 处理接收信息successful.
+11/03/2021 15:11:11 PM - INFO - sending: {"text":"auto_movement"}
+11/03/2021 15:25:08 PM - INFO - 接收线程开启successful.
+11/03/2021 15:25:08 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:08 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:09 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:09 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:09 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:09 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:09 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:09 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:09 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:09 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:09 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:10 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:10 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:10 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:10 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:10 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:10 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:10 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:10 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:10 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:11 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:11 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:11 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:11 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:11 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:11 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:11 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:11 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:11 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:12 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:12 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:12 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:12 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:12 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:12 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:12 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:12 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:12 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:13 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:13 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:13 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:13 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:13 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:13 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:13 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:13 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:13 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:14 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:14 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:14 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:14 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:14 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:14 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:14 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:14 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:14 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:15 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:15 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:15 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:15 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:15 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:15 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:15 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:15 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:15 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:15 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:16 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:16 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:16 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:16 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:16 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:16 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:16 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:16 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:16 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:17 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:17 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:17 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:17 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:17 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:17 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:17 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:17 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:17 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:18 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:18 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:18 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:18 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:18 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:18 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:18 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:18 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:18 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:19 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:19 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:19 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:19 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:19 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:19 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:25:19 PM - INFO - 处理接收信息successful.
+11/03/2021 15:25:19 PM - INFO - sending: {"text":"auto_movement"}
+11/03/2021 15:26:08 PM - INFO - sending: {"text":"bye"}
+11/03/2021 15:26:08 PM - INFO - bye.
+11/03/2021 15:26:15 PM - INFO - sending: {"text":"bye"}
+11/03/2021 15:26:15 PM - INFO - bye.
+11/03/2021 15:26:22 PM - INFO - sending: {"text":"bye"}
+11/03/2021 15:26:22 PM - INFO - bye.
+11/03/2021 15:27:21 PM - INFO - sending: {"text":"bye"}
+11/03/2021 15:27:21 PM - INFO - bye.
+11/03/2021 15:38:30 PM - INFO - sending: {"text":"bye"}
+11/03/2021 15:38:30 PM - INFO - bye.
+11/03/2021 15:38:43 PM - INFO - sending: {"text":"bye"}
+11/03/2021 15:38:43 PM - INFO - bye.
+11/03/2021 15:46:51 PM - INFO - sending: {"text":"bye"}
+11/03/2021 15:46:51 PM - INFO - bye.
+11/03/2021 15:54:30 PM - INFO - 接收线程开启successful.
+11/03/2021 15:54:30 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:30 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:30 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:30 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:30 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:30 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:30 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:30 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:30 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:31 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:31 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:31 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:31 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:31 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:31 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:31 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:31 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:31 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:31 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:32 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:32 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:32 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:32 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:32 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:32 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:32 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:32 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:32 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:33 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:33 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:33 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:33 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:33 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:33 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:33 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:33 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:33 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:34 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:34 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:34 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:34 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:34 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:34 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:34 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:34 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:34 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:35 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:35 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:35 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:35 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:35 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:35 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:35 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:35 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:35 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:36 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:36 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:36 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:36 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:36 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:36 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:36 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:36 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:36 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:37 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:37 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:37 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:37 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:37 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:37 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:37 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:37 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:37 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:37 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:38 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:38 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:38 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:38 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:38 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:38 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:38 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:38 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:38 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:39 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:39 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:39 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:39 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:39 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:39 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:39 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:39 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:39 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:40 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:40 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:40 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:40 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:40 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:40 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:40 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 15:54:40 PM - INFO - 处理接收信息successful.
+11/03/2021 15:54:40 PM - INFO - sending: {"text":"auto_movement"}
+11/03/2021 16:00:41 PM - INFO - 接收线程开启successful.
+11/03/2021 16:00:41 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:41 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:41 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:41 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:41 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:41 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:41 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:41 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:41 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:42 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:42 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:42 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:42 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:42 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:42 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:42 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:42 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:42 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:42 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:43 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:43 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:43 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:43 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:43 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:43 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:43 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:43 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:43 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:44 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:44 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:44 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:44 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:44 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:44 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:44 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:44 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:44 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:45 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:45 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:45 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:45 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:45 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:45 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:45 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:45 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:45 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:46 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:46 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:46 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:46 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:46 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:46 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:46 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:46 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:46 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:47 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:47 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:47 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:47 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:47 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:47 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:47 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:47 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:47 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:48 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:48 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:48 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:48 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:48 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:48 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:48 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:48 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:48 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:49 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:49 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:49 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:49 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:49 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:49 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:49 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:49 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:49 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:50 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:50 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:50 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:50 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:50 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:50 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:50 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:50 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:50 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:51 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:51 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:51 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:51 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:51 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:51 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:51 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:51 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:00:51 PM - INFO - 处理接收信息successful.
+11/03/2021 16:00:51 PM - INFO - sending: {"text":"auto_movement"}
+11/03/2021 16:01:15 PM - INFO - 接收线程开启successful.
+11/03/2021 16:01:15 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:15 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:16 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:16 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:16 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:16 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:16 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:16 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:16 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:16 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:16 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:17 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:17 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:17 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:17 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:17 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:17 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:17 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:17 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:17 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:18 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:18 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:18 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:18 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:18 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:18 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:18 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:18 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:18 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:19 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:19 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:19 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:19 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:19 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:19 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:19 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:19 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:19 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:20 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:20 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:20 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:20 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:20 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:20 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:20 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:20 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:20 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:20 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:21 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:21 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:21 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:21 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:21 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:21 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:21 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:21 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:21 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:22 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:22 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:22 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:22 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:22 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:22 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:22 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:22 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:22 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:23 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:23 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:23 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:23 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:23 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:23 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:23 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:23 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:23 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:24 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:24 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:24 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:24 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:24 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:24 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:24 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:24 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:24 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:25 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:25 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:25 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:25 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:25 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:25 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:25 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:25 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:25 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:26 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:26 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:26 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:26 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:26 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:26 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:01:26 PM - INFO - 处理接收信息successful.
+11/03/2021 16:01:26 PM - INFO - sending: {"text":"auto_movement"}
+11/03/2021 16:03:41 PM - INFO - 接收线程开启successful.
+11/03/2021 16:03:41 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:41 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:41 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:42 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:42 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:42 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:42 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:42 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:42 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:42 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:42 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:42 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:43 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:43 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:43 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:43 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:43 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:43 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:43 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:43 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:43 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:44 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:44 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:44 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:44 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:44 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:44 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:44 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:44 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:44 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:45 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:45 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:45 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:45 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:45 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:45 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:45 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:45 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:45 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:45 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:46 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:46 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:46 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:46 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:46 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:46 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:46 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:46 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:46 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:47 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:47 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:47 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:47 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:47 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:47 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:47 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:47 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:47 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:48 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:48 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:48 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:48 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:48 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:48 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:48 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:48 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:48 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:49 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:49 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:49 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:49 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:49 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:49 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:49 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:49 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:49 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:50 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:50 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:50 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:50 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:50 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:50 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:50 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:50 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:50 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:51 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:51 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:51 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:51 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:51 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:51 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:51 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:51 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:51 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:52 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:52 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:52 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:52 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:52 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:03:52 PM - INFO - 处理接收信息successful.
+11/03/2021 16:03:52 PM - INFO - sending: {"text":"auto_movement"}
+11/03/2021 16:13:29 PM - INFO - 接收线程开启successful.
+11/03/2021 16:13:29 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:13:30 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:13:30 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:13:30 PM - INFO - read: {"text":"c"}
+11/03/2021 16:13:30 PM - INFO - sending: {"text":"connected"}
+11/03/2021 16:13:30 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:13:30 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:13:30 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:13:30 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 16:13:30 PM - INFO - sending: {"text":"received"}
+11/03/2021 16:13:30 PM - INFO - 处理接收信息successful.
+11/03/2021 16:13:30 PM - INFO - sending: {"text":"auto_movement"}
+11/03/2021 16:13:30 PM - INFO - sending: {"text":"get data from json"}
+11/03/2021 16:13:30 PM - INFO - sending: {"text":"data to utf-8"}
+11/03/2021 16:13:30 PM - INFO - sending: {"text":"cpp_title:q000"}
+11/03/2021 16:13:30 PM - INFO - sending: {"text":"cpp_title:q0001_"}
+11/03/2021 16:13:30 PM - INFO - sending: {"text":"cpp_title:q0001_twoSum"}
+11/03/2021 16:13:30 PM - INFO - sending: {"eng_title":"twoSum"}
+11/03/2021 16:13:30 PM - INFO - sending: {"text":"cpp_title:q0001_twoSum.cpp"}
+11/03/2021 16:13:30 PM - INFO - sending: {"text":"writing:CMakeLists.txt"}
+11/03/2021 16:13:30 PM - INFO - sending: {"text":"auto_movement_3"}
+11/03/2021 16:13:30 PM - INFO - 自动化创建文件，打开软件successful.
+11/03/2021 16:13:30 PM - INFO - sending: {"text":"bye"}
+11/03/2021 16:13:30 PM - INFO - bye.
+11/03/2021 17:29:13 PM - INFO - 接收线程开启successful.
+11/03/2021 17:29:13 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 17:29:13 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 17:29:13 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 17:29:13 PM - INFO - read: {"text":"c"}
+11/03/2021 17:29:13 PM - INFO - sending: {"text":"connected"}
+11/03/2021 17:29:13 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 17:29:14 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 17:29:14 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 17:29:14 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 17:29:14 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 17:29:14 PM - INFO - sending: {"text":"received"}
+11/03/2021 17:29:14 PM - INFO - 处理接收信息successful.
+11/03/2021 17:29:14 PM - INFO - sending: {"text":"auto_movement"}
+11/03/2021 17:29:14 PM - INFO - sending: {"text":"get data from json"}
+11/03/2021 17:29:14 PM - INFO - sending: {"text":"data to utf-8"}
+11/03/2021 17:29:14 PM - INFO - sending: {"text":"cpp_title:q00"}
+11/03/2021 17:29:14 PM - INFO - sending: {"text":"cpp_title:q0042_"}
+11/03/2021 17:29:14 PM - INFO - sending: {"text":"cpp_title:q0042_trap"}
+11/03/2021 17:29:14 PM - INFO - sending: {"eng_title":"trap"}
+11/03/2021 17:29:14 PM - INFO - sending: {"text":"cpp_title:q0042_trap.cpp"}
+11/03/2021 17:29:14 PM - INFO - sending: {"text":"writing:q0042_trap.cpp"}
+11/03/2021 17:29:14 PM - INFO - sending: {"text":"writing:CMakeLists.txt"}
+11/03/2021 17:29:14 PM - INFO - sending: {"text":"auto_movement_3"}
+11/03/2021 17:29:14 PM - INFO - 自动化创建文件，打开软件successful.
+11/03/2021 17:29:14 PM - INFO - sending: {"text":"bye"}
+11/03/2021 17:29:14 PM - INFO - bye.
+11/03/2021 17:39:35 PM - INFO - 接收线程开启successful.
+11/03/2021 17:39:35 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 17:39:35 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 17:39:35 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 17:39:35 PM - INFO - read: {"text":"c"}
+11/03/2021 17:39:35 PM - INFO - sending: {"text":"connected"}
+11/03/2021 17:39:35 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 17:39:35 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 17:39:35 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 17:39:36 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 17:39:36 PM - INFO - no data recieved, delay 0.1s.
+11/03/2021 17:39:36 PM - INFO - sending: {"text":"received"}
+11/03/2021 17:39:36 PM - INFO - 处理接收信息successful.
+11/03/2021 17:39:36 PM - INFO - sending: {"text":"auto_movement"}
+11/03/2021 17:39:36 PM - INFO - sending: {"text":"get data from json"}
+11/03/2021 17:39:36 PM - INFO - sending: {"text":"data to utf-8"}
+11/03/2021 17:39:36 PM - INFO - sending: {"text":"cpp_title:q00"}
+11/03/2021 17:39:36 PM - INFO - sending: {"text":"cpp_title:q0042_"}
+11/03/2021 17:39:36 PM - INFO - sending: {"text":"cpp_title:q0042_trap"}
+11/03/2021 17:39:36 PM - INFO - sending: {"eng_title":"trap"}
+11/03/2021 17:39:36 PM - INFO - sending: {"text":"cpp_title:q0042_trap.cpp"}
+11/03/2021 17:39:36 PM - INFO - sending: {"text":"writing:CMakeLists.txt"}
+11/03/2021 17:39:36 PM - INFO - sending: {"text":"auto_movement_3"}
+11/03/2021 17:39:36 PM - INFO - 自动化创建文件，打开软件successful.
+11/03/2021 17:39:36 PM - INFO - sending: {"text":"bye"}
+11/03/2021 17:39:36 PM - INFO - bye.
+11/05/2021 18:46:35 PM - INFO - 接收线程开启successful.
+11/05/2021 18:46:35 PM - INFO - read: {"text":"c"}
+11/05/2021 18:46:35 PM - INFO - sending: {"text":"connected"}
+11/05/2021 18:46:35 PM - INFO - no data recieved, delay 0.1s.
+11/05/2021 18:46:35 PM - INFO - no data recieved, delay 0.1s.
+11/05/2021 18:46:35 PM - INFO - no data recieved, delay 0.1s.
+11/05/2021 18:46:35 PM - INFO - no data recieved, delay 0.1s.
+11/05/2021 18:46:35 PM - INFO - no data recieved, delay 0.1s.
+11/05/2021 18:46:35 PM - INFO - sending: {"text":"received"}
+11/05/2021 18:46:35 PM - INFO - 处理接收信息successful.
+11/05/2021 18:46:35 PM - INFO - sending: {"text":"auto_movement"}
+11/05/2021 18:46:35 PM - INFO - sending: {"text":"get data from json"}
+11/05/2021 18:46:35 PM - INFO - sending: {"text":"data to utf-8"}
+11/05/2021 18:46:35 PM - INFO - sending: {"text":"cpp_title:q000"}
+11/05/2021 18:46:35 PM - INFO - sending: {"text":"cpp_title:q0005_"}
+11/05/2021 18:46:35 PM - INFO - sending: {"text":"cpp_title:q0005_longestPalindrome"}
+11/05/2021 18:46:35 PM - INFO - sending: {"eng_title":"longestPalindrome"}
+11/05/2021 18:46:35 PM - INFO - sending: {"text":"cpp_title:q0005_longestPalindrome.cpp"}
+11/05/2021 18:46:35 PM - INFO - sending: {"text":"writing:q0005_longestPalindrome.cpp"}
+11/05/2021 18:46:35 PM - INFO - sending: {"text":"writing:CMakeLists.txt"}
+11/05/2021 18:46:35 PM - INFO - sending: {"text":"auto_movement_3"}
+11/05/2021 18:46:35 PM - INFO - 自动化创建文件，打开软件successful.
+11/05/2021 18:46:35 PM - INFO - sending: {"text":"bye"}
+11/05/2021 18:46:35 PM - INFO - bye.
+04/14/2022 17:04:13 PM - INFO - 接收线程开启successful.
+04/14/2022 17:04:13 PM - INFO - no data recieved, delay 0.1s.
+04/14/2022 17:04:14 PM - INFO - no data recieved, delay 0.1s.
+04/14/2022 17:04:14 PM - INFO - no data recieved, delay 0.1s.
+04/14/2022 17:04:14 PM - INFO - read: {"text":"c"}
+04/14/2022 17:04:14 PM - INFO - sending: {"text":"connected"}
+04/14/2022 17:04:14 PM - INFO - no data recieved, delay 0.1s.
+04/14/2022 17:04:14 PM - INFO - no data recieved, delay 0.1s.
+04/14/2022 17:04:14 PM - INFO - no data recieved, delay 0.1s.
+04/14/2022 17:04:14 PM - INFO - no data recieved, delay 0.1s.
+04/14/2022 17:04:14 PM - INFO - no data recieved, delay 0.1s.
+04/14/2022 17:04:14 PM - INFO - sending: {"text":"received"}
+04/14/2022 17:04:14 PM - INFO - 处理接收信息successful.
+04/14/2022 17:04:14 PM - INFO - sending: {"text":"auto_movement"}
+04/14/2022 17:04:14 PM - INFO - sending: {"text":"get data from json"}
+04/14/2022 17:10:43 PM - INFO - 接收线程开启successful.
+04/14/2022 17:10:43 PM - INFO - no data recieved, delay 0.1s.
+04/14/2022 17:10:43 PM - INFO - no data recieved, delay 0.1s.
+04/14/2022 17:10:43 PM - INFO - read: {"text":"c"}
+04/14/2022 17:10:43 PM - INFO - sending: {"text":"connected"}
+04/14/2022 17:10:43 PM - INFO - sending: {"text":"received"}
+04/14/2022 17:10:43 PM - INFO - 处理接收信息successful.
+04/14/2022 17:10:43 PM - INFO - sending: {"text":"auto_movement"}
+04/14/2022 17:10:43 PM - INFO - sending: {"text":"get data from json"}
+04/14/2022 17:10:43 PM - ERROR - decode error!
+04/14/2022 17:10:43 PM - INFO - sending: {"text":"data to utf-8"}
+04/14/2022 17:10:43 PM - INFO - sending: {"text":"cpp_title:q"}
+04/14/2022 17:10:43 PM - INFO - sending: {"text":"cpp_title:q1672_"}
+04/14/2022 17:10:43 PM - INFO - sending: {"text":"cpp_title:q1672_maximumWealth
+"}
+04/14/2022 17:10:43 PM - INFO - sending: {"eng_title":"maximumWealth
+"}
+04/14/2022 17:10:43 PM - INFO - sending: {"text":"cpp_title:q1672_maximumWealth
+.cpp"}
+04/14/2022 17:10:43 PM - INFO - sending: {"text":"writing:q1672_maximumWealth
+.cpp"}
+04/14/2022 17:14:30 PM - INFO - 接收线程开启successful.
+04/14/2022 17:14:30 PM - INFO - no data recieved, delay 0.1s.
+04/14/2022 17:14:30 PM - INFO - no data recieved, delay 0.1s.
+04/14/2022 17:14:30 PM - INFO - read: {"text":"c"}
+04/14/2022 17:14:30 PM - INFO - sending: {"text":"connected"}
+04/14/2022 17:14:30 PM - INFO - sending: {"text":"received"}
+04/14/2022 17:14:30 PM - INFO - 处理接收信息successful.
+04/14/2022 17:14:30 PM - INFO - sending: {"text":"auto_movement"}
+04/14/2022 17:14:30 PM - INFO - sending: {"text":"get data from json"}
+04/14/2022 17:14:30 PM - INFO - sending: {"text":"decode_error!"}
+04/14/2022 17:14:30 PM - ERROR - decode error!
+04/14/2022 17:14:30 PM - INFO - 自动化创建文件，打开软件successful.
+04/14/2022 17:14:30 PM - INFO - sending: {"text":"bye"}
+04/14/2022 17:14:30 PM - INFO - bye.
+04/14/2022 17:21:54 PM - INFO - 接收线程开启successful.
+04/14/2022 17:21:54 PM - INFO - no data recieved, delay 0.1s.
+04/14/2022 17:21:54 PM - INFO - no data recieved, delay 0.1s.
+04/14/2022 17:21:54 PM - INFO - read: {"text":"c"}
+04/14/2022 17:21:54 PM - INFO - sending: {"text":"connected"}
+04/14/2022 17:21:54 PM - INFO - sending: {"text":"received"}
+04/14/2022 17:21:54 PM - INFO - 处理接收信息successful.
+04/14/2022 17:21:54 PM - INFO - sending: {"text":"auto_movement"}
+04/14/2022 17:21:54 PM - INFO - sending: {"text":"get data from json"}
+04/14/2022 17:21:54 PM - INFO - sending: {"text":"data to utf-8"}
+04/14/2022 17:21:54 PM - INFO - sending: {"text":"cpp_title:q"}
+04/14/2022 17:21:54 PM - INFO - sending: {"text":"cpp_title:q1672_"}
+04/14/2022 17:21:54 PM - INFO - sending: {"text":"cpp_title:q1672_maximumWealth
+"}
+04/14/2022 17:21:54 PM - INFO - sending: {"eng_title":"maximumWealth
+"}
+04/14/2022 17:21:54 PM - INFO - sending: {"text":"cpp_title:q1672_maximumWealth
+.cpp"}
+04/14/2022 17:21:54 PM - INFO - sending: {"text":"writing:q1672_maximumWealth
+.cpp"}
+04/14/2022 17:44:08 PM - INFO - 接收线程开启successful.
+04/14/2022 17:44:08 PM - INFO - no data recieved, delay 0.1s.
+04/14/2022 17:44:08 PM - INFO - no data recieved, delay 0.1s.
+04/14/2022 17:44:08 PM - INFO - read: {"text":"c"}
+04/14/2022 17:44:08 PM - INFO - sending: {"text":"connected"}
+04/14/2022 17:44:08 PM - INFO - sending: {"text":"received"}
+04/14/2022 17:44:08 PM - INFO - 处理接收信息successful.
+04/14/2022 17:44:08 PM - INFO - sending: {"text":"auto_movement"}
+04/14/2022 17:44:08 PM - INFO - sending: {"text":"get data from json"}
+04/14/2022 17:44:08 PM - INFO - sending: {"text":"data to utf-8"}
+04/14/2022 17:44:08 PM - INFO - sending: {"text":"cpp_title:q"}
+04/14/2022 17:44:08 PM - INFO - sending: {"text":"cpp_title:q1672_"}
+04/14/2022 17:44:08 PM - INFO - sending: {"text":"cpp_title:q1672_maximumWealth"}
+04/14/2022 17:44:08 PM - INFO - sending: {"eng_title":"maximumWealth"}
+04/14/2022 17:44:08 PM - INFO - sending: {"text":"cpp_title:q1672_maximumWealth.cpp"}
+04/14/2022 17:44:08 PM - INFO - sending: {"text":"writing:q1672_maximumWealth.cpp"}
+04/14/2022 17:44:08 PM - INFO - sending: {"text":"writing:CMakeLists.txt"}
+04/14/2022 17:44:08 PM - INFO - sending: {"text":"writing .md"}
+04/14/2022 17:44:08 PM - INFO - sending: {"text":"auto_movement_3"}
+04/14/2022 17:44:08 PM - INFO - 自动化创建文件，打开软件successful.
+04/14/2022 17:44:08 PM - INFO - sending: {"text":"bye"}
+04/14/2022 17:44:08 PM - INFO - bye.
+04/14/2022 17:44:36 PM - INFO - 接收线程开启successful.
+04/14/2022 17:44:36 PM - INFO - no data recieved, delay 0.1s.
+04/14/2022 17:44:36 PM - INFO - no data recieved, delay 0.1s.
+04/14/2022 17:44:36 PM - INFO - read: {"text":"c"}
+04/14/2022 17:44:36 PM - INFO - sending: {"text":"connected"}
+04/14/2022 17:44:36 PM - INFO - sending: {"text":"received"}
+04/14/2022 17:44:36 PM - INFO - 处理接收信息successful.
+04/14/2022 17:44:36 PM - INFO - sending: {"text":"auto_movement"}
+04/14/2022 17:44:36 PM - INFO - sending: {"text":"get data from json"}
+04/14/2022 17:44:36 PM - INFO - sending: {"text":"data to utf-8"}
+04/14/2022 17:44:36 PM - INFO - sending: {"text":"cpp_title:q"}
+04/14/2022 17:44:36 PM - INFO - sending: {"text":"cpp_title:q1672_"}
+04/14/2022 17:44:36 PM - INFO - sending: {"text":"cpp_title:q1672_maximumWealth"}
+04/14/2022 17:44:36 PM - INFO - sending: {"eng_title":"maximumWealth"}
+04/14/2022 17:44:36 PM - INFO - sending: {"text":"cpp_title:q1672_maximumWealth.cpp"}
+04/14/2022 17:44:36 PM - INFO - sending: {"text":"writing:CMakeLists.txt"}
+04/14/2022 17:44:36 PM - INFO - sending: {"text":"auto_movement_3"}
+04/14/2022 17:44:36 PM - INFO - 自动化创建文件，打开软件successful.
+04/14/2022 17:44:36 PM - INFO - sending: {"text":"bye"}
+04/14/2022 17:44:36 PM - INFO - bye.

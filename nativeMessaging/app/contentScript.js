@@ -20,14 +20,15 @@ chrome.runtime.onMessage.addListener(
 
             try {
                 // 跳转题目描述页面
-                document.querySelector("#question-detail-main-tabs > div.css-eminw3-TabViewHeader.e16udao1 > div > div:nth-child(1)").click();
-                questionTitle = document.querySelector("#question-detail-main-tabs > div.css-fwb2av-layer1.css-12hreja-TabContent.e16udao5 > div > div.css-xfm0cl-Container.eugt34i0 > h4 > a").innerText;
-                questionContent = document.querySelector("#question-detail-main-tabs > div.css-fwb2av-layer1.css-12hreja-TabContent.e16udao5 > div > div.content__1Y2H > div").innerHTML;
-                codeContent = document.querySelector("#lc-home > div > div.main__1pRE > div.css-wfkj6v-Content.e1aolq224 > div > div.css-1gcn2k5-RightContainer.e1aolq221 > div.css-pwvbgl-CodeAreaContainer.ejldciv0 > div.css-w8jsc9-EditorContainer.ejldciv1 > div > div.css-1sdn0mk.css-ilak5e-Container.euyvu2f0 > div > div.overflow-guard > div.monaco-scrollable-element.editor-scrollable.vs > div.lines-content.monaco-editor-background > div.view-lines.monaco-mouse-cursor-text").innerText;
-                document.querySelector("#question-detail-main-tabs > div.css-eminw3-TabViewHeader.e16udao1 > div > div:nth-child(4)").click();
+                document.evaluate('//*[@id="question-detail-main-tabs"]/div[1]/div/div[1]', document).iterateNext().click();
+                questionTitle = document.evaluate('//*[@id="question-detail-main-tabs"]/div[2]/div/div[1]/h4', document).iterateNext().innerText;
+                questionContent = document.evaluate('//*[@id="question-detail-main-tabs"]/div[2]/div/div[2]', document).iterateNext().innerHTML;
+                codeContent = document.evaluate('//*[@id="lc-home"]/div/div[2]/div[1]/div/div[3]/div[1]/div[1]/div/div[2]/div/div[1]/div[2]', document).iterateNext().innerText;
+                document.document.evaluate('//*[@id="question-detail-main-tabs"]/div[1]/div/div[3]', document).iterateNext().click();
                 try {
-                    if (document.querySelector("#question-detail-main-tabs > div.tab-pane__1SHj.css-12hreja-TabContent.e16udao5 > div > div > div.result-container__ADcY > div > div.css-vkm4ym-Result.e18r7j6f2 > div.css-1uwxigo-SubmitResultInfo.e18r7j6f3 > div.css-11bwh4m-SubmissionResult.e18r7j6f0").innerText == "通过") {
-                        resultInfo = document.querySelector("#question-detail-main-tabs > div.tab-pane__1SHj.css-12hreja-TabContent.e16udao5 > div > div > div.result-container__ADcY > div > div:nth-child(3)").innerText + document.querySelector("#question-detail-main-tabs > div.tab-pane__1SHj.css-12hreja-TabContent.e16udao5 > div > div > div.result-container__ADcY > div > div:nth-child(4)").innerText;
+                    if (document.evaluate('//*[@id="question-detail-main-tabs"]/div[5]/div/div/div[1]/div/div[1]/div[1]/div[1]', document).iterateNext().innerText == "通过") {
+                        resultInfo = document.evaluate('//*[@id="question-detail-main-tabs"]/div[5]/div/div/div[1]/div/div[2]', document).iterateNext().innerText;
+                        resultInfo += document.evaluate('//*[@id="question-detail-main-tabs"]/div[5]/div/div/div[1]/div/div[3]', document).iterateNext().innerText;
                     }
                 }
                 catch (err) {
@@ -40,19 +41,21 @@ chrome.runtime.onMessage.addListener(
                 // alert("data not complete, please refresh the page!");
                 console.log(err);
             }
-            console.log(questionTitle);
-            console.log(questionContent);
-            console.log(codeContent);
-            console.log(resultInfo);
+            console.log('【***** questionTitle *****】' + questionTitle);
+            console.log('【***** questionContent *****】' + questionContent);
+            console.log('【***** codeContent *****】' + codeContent);
+            console.log('【***** resultInfo *****】' + resultInfo);
             if (!(questionTitle && questionContent && codeContent)) {
+                console.log("send nodt!");
                 sendResponse({ farewell: "nodt" });
             } else {
+                console.log("send data!");
                 sendResponse({
                     farewell: "got",
                     title: questionTitle,
                     qContent: questionContent,
                     codeText: codeContent,
-                    resultText:resultInfo
+                    resultText: resultInfo
                 });
             }
 

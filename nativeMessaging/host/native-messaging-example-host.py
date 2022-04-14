@@ -4,6 +4,7 @@
 # @Author  : Eiya_ming
 # @Email   : eiyaming@163.com
 # @File    : old2.py
+from asyncio.log import logger
 import queue
 import struct
 import sys
@@ -11,6 +12,8 @@ import threading
 import time
 import json
 import re
+import logging
+
 
 # On Windows, the default I/O mode is O_TEXT. Set this to O_BINARY
 # to avoid unwanted modifications of the input/output streams.
@@ -67,6 +70,7 @@ def html2md(s: str) -> str:
 
 # Helper function that sends a message to the webapp.
 def send_message(message):
+    logging.info("sending: " + message)
     # Write message size.
     sys.stdout.buffer.write(struct.pack('I', len(message)))
     # Write the message itself.
@@ -88,6 +92,7 @@ def read_thread_func(que):
         # text = byte_text.decode(errors='ignore')
         text = byte_text.decode()
         que.put(text)
+        logging.info("read: "+text)
 
 
 class HiddenProcess:
@@ -115,22 +120,31 @@ class HiddenProcess:
 
         # 没有收到 data，延时 0.1s后，再运行本函数
         if self.data == '' and self.process_times < self.max_process_times:
+            logging.info("no data recieved, delay 0.1s.")
             time.sleep(0.1)
             self.process_messages()
 
     # 自动化处理 data
     def auto_movement(self):
         send_message('{"text":"auto_movement"}')
-        with open('test.json', 'w', encoding='utf-8') as f:
+        with open('D:/SelfStudy/Git/Google_LeetCode_extension/nativeMessaging/host/test.json', 'w', encoding='utf-8') as f:
             f.write(self.data)
-        with open('test.json', encoding='utf-8') as fp:
+        with open('D:/SelfStudy/Git/Google_LeetCode_extension/nativeMessaging/host/test.json','r', encoding='utf-8') as fp:
             self.data_dic = json.load(fp)
         send_message('{"text":"get data from json"}')
-        title = self.data_dic['title'].encode('utf-8').decode('utf-8')
-        qContent = self.data_dic['qContent'].encode('utf-8').decode('utf-8')
-        codeText = self.data_dic['codeText'].encode('utf-8').decode('utf-8')
-        resultInfo = self.data_dic['resultText'].encode('utf-8').decode(
-            'utf-8')
+        try: 
+            title = self.data_dic['title']
+            qContent = self.data_dic['qContent']
+            codeText = self.data_dic['codeText']
+            if 'resultText' in self.data_dic:
+                resultInfo = self.data_dic['resultText']
+            else:
+                resultInfo = ""
+        except Exception:
+            send_message('{"text":"decode_error!"}')
+            logging.error("decode error!")
+            return 
+
         send_message('{"text":"data to utf-8"}')
 
         codeText = codeText.replace('\xa0', ' ')
@@ -172,6 +186,7 @@ class HiddenProcess:
                 else:
                     eng_title = codeText.split('\nclass ')[1].split(
                         ' {')[0][1].split(' {')[0]
+            eng_title = eng_title.replace('\n','')
             cpp_title += eng_title
             send_message('{"text":"cpp_title:' + cpp_title + '"}')
             send_message('{"eng_title":"' + eng_title + '"}')
@@ -228,6 +243,10 @@ class HiddenProcess:
 
 
 def Main():
+    LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
+    DATE_FORMAT = "%m/%d/%Y %H:%M:%S %p"
+
+    logging.basicConfig(filename='my.log', level=logging.DEBUG, format=LOG_FORMAT, datefmt=DATE_FORMAT)
     que = queue.Queue()
     # 处理对象初始化
     hidden_process = HiddenProcess(que)
@@ -235,12 +254,15 @@ def Main():
     thread = threading.Thread(target=read_thread_func, args=(que, ))
     thread.daemon = True
     thread.start()
+    logging.info("接收线程开启successful.")
     # 处理接收信息
     hidden_process.process_messages()
+    logging.info("处理接收信息successful.")
     # 自动化创建文件，打开软件
     hidden_process.auto_movement()
+    logging.info("自动化创建文件，打开软件successful.")
     send_message('{"text":"bye"}')
-
+    logging.info("bye.")
     sys.exit(0)
 
 
